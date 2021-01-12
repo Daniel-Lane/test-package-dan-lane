@@ -13,7 +13,7 @@ const handleVariant = variant => {
     }
 }
 
-const Button = ({
+export const Button = ({
     color,
     disabled,
     fullWidth,
@@ -73,5 +73,3 @@ Button.defaultProps = {
     text: null,
     variant: 'solid',
 }
-
-export default Button
