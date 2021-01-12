@@ -1,6 +1,6 @@
 {
   "name": "test-package-dan-lane",
-  "version": "1.0.25",
+  "version": "1.0.28",
   "description": "",
   "main": "./build/index.js",
   "scripts": {
