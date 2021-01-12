@@ -1,2 +1,2 @@
-export { lightTheme } from './light'
-export { darkTheme } from './dark'
+export * from './light'
+export * from './dark'
