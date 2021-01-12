@@ -5,6 +5,7 @@ export * from './GlobalStyles'
 /*
  * ATOMS
  */
+export * from './SimpleTitle'
 export * from './Button'
 export * from './Input'
 export * from './Label'
