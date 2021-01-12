@@ -1,7 +1,7 @@
 var path = require("path");
 
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: "./src/index.js",
   output: {
     path: path.resolve("build"),
@@ -30,6 +30,5 @@ module.exports = {
   },
   externals: {
     react: "react",
-    'react-dom' : 'ReactDOM',
   }
 };
