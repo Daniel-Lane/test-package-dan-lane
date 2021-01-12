@@ -8,6 +8,9 @@ module.exports = {
     filename: "index.js",
     libraryTarget: "commonjs2"
   },
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   module: {
     rules: [
       { test: /\.(js|jsx)$/, exclude: /node_modules/, loader: "babel-loader" },

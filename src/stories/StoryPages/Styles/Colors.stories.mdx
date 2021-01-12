@@ -1,0 +1,72 @@
+import { Meta } from "@storybook/addon-docs/blocks";
+import { colors } from "../../../utils/";
+import { storyStyles } from "../storyStyles";
+
+<Meta title='Styles/Colors' />
+
+<style>{storyStyles}</style>
+
+# Colors
+
+<div className='subheading'>Primary</div>
+<div className='color-list'>
+	<div className='color-square__outer'>
+		<h4>vpGreen</h4>
+		<p>{colors.vpGreen}</p>
+		<div
+			style={{ background: colors.vpGreen }}
+			className='color-square'
+		></div>
+	</div>
+	<div className='color-square__outer'>
+		<h4>vpAquaBlue</h4>
+		<p>{colors.vpAquaBlue}</p>
+		<div
+			style={{ background: colors.vpAquaBlue }}
+			className='color-square'
+		></div>
+	</div>
+</div>
+<div className='subheading'>Greys</div>
+<div className='color-list'>
+	<div className='color-square__outer'>
+		<h4>grey.a</h4>
+		<p>{colors.grey.a}</p>
+		<div
+			style={{ background: colors.grey.a }}
+			className='color-square'
+		></div>
+	</div>
+	<div className='color-square__outer'>
+		<h4>grey.b</h4>
+		<p>{colors.grey.b}</p>
+		<div
+			style={{ background: colors.grey.b }}
+			className='color-square'
+		></div>
+	</div>
+	<div className='color-square__outer'>
+		<h4>grey.c</h4>
+		<p>{colors.grey.c}</p>
+		<div
+			style={{ background: colors.grey.c }}
+			className='color-square'
+		></div>
+	</div>
+	<div className='color-square__outer'>
+		<h4>grey.d</h4>
+		<p>{colors.grey.d}</p>
+		<div
+			style={{ background: colors.grey.d }}
+			className='color-square'
+		></div>
+	</div>
+	<div className='color-square__outer'>
+		<h4>grey.e</h4>
+		<p>{colors.grey.e}</p>
+		<div
+			style={{ background: colors.grey.e }}
+			className='color-square'
+		></div>
+	</div>
+</div>
